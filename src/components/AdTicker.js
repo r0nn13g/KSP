@@ -45,7 +45,7 @@ const AdTicker = () => {
       <p
         style={{
           whiteSpace: "nowrap",
-          color: "black",
+          color: "#252525",
         }}
       >
         {item.value}

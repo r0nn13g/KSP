@@ -1,14 +1,80 @@
-import Ticker, { NewsTicker } from 'nice-react-ticker';
+import { ReactTicker } from "@guna81/react-ticker";
 import '../styles/ticker-styles.css';
 
 const AdTicker = () => {
-  return(
-          <Ticker style={{backgroundColor: "var(--green-elements)" }} isNewsTicker={true} slideSpeed={9}>
-             <NewsTicker id="1"  title="Monitor real viewer count 🤖" />
-             <NewsTicker id="2"  title="Check who's banned 🔨🔨🔨" />
-             <NewsTicker id="5"  title="Created by Scriptedagain 🫠" url="https://www.kick.com/scriptedagain"/>
-          </Ticker>
-  )
+  const data = [
+    {
+      id: 1,
+      value:
+        "KickstreamPRO 🧠",
+    },
+    {
+      id: 1,
+      value:
+      "monitor real viewer counts on Kick 🤖",
+    },
+    {
+      id: 1,
+      value:
+      "search for any channel  🤳🏼",
+    },
+    {
+      id: 1,
+      value:
+      "check if a channel is banned  🔨🔨🔨",
+    },
+    {
+      id: 1,
+      value:
+      "created by scriptedagain",
+    },
+    {
+      id: 1,
+      value:
+        "🪖 a product of the nickwhitearmy  🪖",
+    },
+    {
+      id: 1,
+      value:
+        "",
+    },
+  ];
+
+  const renderItem = (item) => {
+    return (
+      <p
+        style={{
+          whiteSpace: "nowrap",
+          color: "black",
+        }}
+      >
+        {item.value}
+      </p>
+    );
+  };
+
+  return (
+    <div className="App">
+      {/* using custom ticker item component */}
+      <ReactTicker
+        data={data}
+        component={renderItem}
+        speed={58}
+        keyName="_id"
+        tickerStyle={{
+          position: "relative",
+          bottom: 0,
+          left: "0",
+          width: "100%",
+          height: "24px",
+          color: "#252525",
+          backgroundColor: "var(--green-elements)",
+          zIndex: 99,
+        }}
+        tickerClassName="news-ticker"
+      />
+    </div>
+  );
 };
 
 export default AdTicker;

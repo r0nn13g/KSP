@@ -73,6 +73,16 @@ const AdTicker = () => {
       value:
         "|",
     },
+    {
+      id: 1,
+      value:
+      "disclosure: the url to this website will be changing soon",
+    },
+    {
+      id: 1,
+      value:
+        "|",
+    },
   ];
 
   const renderItem = (item) => {

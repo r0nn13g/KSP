@@ -16,7 +16,7 @@ const AdTicker = () => {
     {
       id: 1,
       value:
-      "🤖 monitor real viewer counts on Kick 🤖",
+      "displaying real viewer counts on Kick 😈",
     },
     {
       id: 1,
@@ -26,7 +26,7 @@ const AdTicker = () => {
     {
       id: 1,
       value:
-      "🤳🏼 search for any channel  🤳🏼",
+      "search for a specific channel",
     },
     {
       id: 1,
@@ -36,7 +36,7 @@ const AdTicker = () => {
     {
       id: 1,
       value:
-      "🔨🔨 check if a channel is banned  🔨🔨",
+      "create a watchlist",
     },
     {
       id: 1,
@@ -46,7 +46,27 @@ const AdTicker = () => {
     {
       id: 1,
       value:
-      "🦴 created by scriptedagain 🦴",
+      "is your favorite streamer banned?",
+    },
+    {
+      id: 1,
+      value:
+      "|",
+    },
+    {
+      id: 1,
+      value:
+      "created by scriptedagain",
+    },
+    {
+      id: 1,
+      value:
+        "|",
+    },
+    {
+      id: 1,
+      value:
+      "give me money: eth - 0xb043AFf65296E369741a280bFf3A4638776AdDb7",
     },
     {
       id: 1,

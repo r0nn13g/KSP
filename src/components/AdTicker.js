@@ -6,37 +6,52 @@ const AdTicker = () => {
     {
       id: 1,
       value:
-        "KickstreamPRO 🧠",
+        "🌎 IRLNetwork",
     },
     {
       id: 1,
       value:
-      "monitor real viewer counts on Kick 🤖",
+      "|",
     },
     {
       id: 1,
       value:
-      "search for any channel  🤳🏼",
+      "🤖 monitor real viewer counts on Kick 🤖",
     },
     {
       id: 1,
       value:
-      "check if a channel is banned  🔨🔨🔨",
+      "|",
     },
     {
       id: 1,
       value:
-      "created by scriptedagain",
+      "🤳🏼 search for any channel  🤳🏼",
     },
     {
       id: 1,
       value:
-        "🪖 a product of the nickwhitearmy  🪖",
+      "|",
     },
     {
       id: 1,
       value:
-        "",
+      "🔨🔨 check if a channel is banned  🔨🔨",
+    },
+    {
+      id: 1,
+      value:
+      "|",
+    },
+    {
+      id: 1,
+      value:
+      "🦴 created by scriptedagain 🦴",
+    },
+    {
+      id: 1,
+      value:
+        "|",
     },
   ];
 

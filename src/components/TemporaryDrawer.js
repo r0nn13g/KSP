@@ -53,7 +53,7 @@ export default function TemporaryDrawer() {
           </ListItem>
       </List>
       <ListItem style={{ color: "var(--gray-elements )",display: 'flex', justifyContent: 'flex-end' }} >
-            <h3>KickstreamPRO v0.8</h3>
+            <h3>IRLnetwork v0.8</h3>
             &nbsp; &nbsp;&nbsp;
               <GitHubIcon style={{fill: "var(--green-elements)"}}/>
       </ListItem>

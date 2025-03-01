@@ -160,7 +160,7 @@ import RotatingSpinner from './RotatingSpinner.js';
         { loadingTimeout ? (
           <div className="live-stream-card-error" style={{textAlign: "center", margin:"200px 20px 0px 20px"}}>
             <RotatingSpinner />
-          <b style={{color: "var(--gray-elements)", fontSize: "30px"}}>
+          <b style={{color: "var(--gray-elements)", fontSize: "20px"}}>
               You are being rate limited. Please retry in a few moments.
           </b>
         </div>

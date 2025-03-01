@@ -22,7 +22,6 @@ const DisplayVideo = () => {
               @Kick_clipz
             </h4>
             </a>
-            yt
       </div>
             <Footer />
       </>

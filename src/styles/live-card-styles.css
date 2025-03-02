@@ -183,7 +183,7 @@
 
 #channel-offline {
   font-weight: 900;
-  font-size: 12px;
+  font-size: 14px;
   margin-top: 5px;
   color:var(--gray-elements);
 }
@@ -200,8 +200,7 @@
 }
 
 #followers {
-  font-size: 10px;
-  font-weight: 700;
+  font-size: 12px;
 }
 
 #followers-offline{

@@ -91,13 +91,13 @@ const Search = () => {
 
         return (
           <div className="search">
-             <div className="search-input-wrapper" style={{textAlign: "center", color: "var(--gray-elements)"}}>
-              <h1>
+             <div className="search-input-wrapper" style={{textAlign: "center", color: "var(--gray-elements)", margin: "10px"}}>
+              <h1 style={{margin: "20px"}}>
                 SEARCH 🔎
               </h1>
-              <h4 style={{color: "var(--gray-elements)", textAlign: "center", marginTop: "50px"}}>
+              {/* <h4 style={{color: "var(--gray-elements)", textAlign: "center", marginTop: "50px"}}>
                Search for any streamer on Kick
-              </h4>
+              </h4> */}
           <form onSubmit={handleSubmit}>
             <input
             type="text"

@@ -33,23 +33,19 @@ input[type=text] {
   font-family: 'Courier New', Courier, monospace;
   background-color: rgba(37, 37, 37, 0.968);
   border-radius: 10px;
-  padding-top: 40px;
-  margin: 36px;
+  margin: 14px;
   display: grid;
   grid-template-areas:
-  "pfp"
-  "name"
-  "status";
-  align-items: center;
+  "pfp name status"
 }
 
 .image-wrapper{ 
-  grid-area: pfp;
+  padding-top: 20px;
+  grid-area: pfp
 }
 
 #pfp{
-  height: 80px;
-  width: 80px;
+  height: 40px;
   border-radius: 50%;
 }
 
@@ -59,13 +55,14 @@ input[type=text] {
 
 #streamer_name{
   color: rgb(155, 155, 155);
-  font-size: 30px;
+  padding: 14px;
+  font-size: 16px;
   white-space: nowrap;
 }
 
 .ban_status_wrapper{
   grid-area: status;
-  font-size: 30px;
+  font-size: 20px;
   white-space: nowrap;
 }
 #ban-status{

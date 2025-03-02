@@ -1,6 +1,6 @@
-# Ksp v0.9
+# IRLnetwork v0.9
 
-https://kickstreampro.netlify.app
+https://irlnetwork.netlify.app
 
 ```
 ios 17 - iPhone 15 Pro Max

@@ -1,6 +1,5 @@
 export let channels = [
     'https://kick.com/api/v1/channels/abz',
-    'https://kick.com/api/v1/channels/ac7ionman',
     'https://kick.com/api/v1/channels/adinross',
     'https://kick.com/api/v1/channels/adrianahlee',
     'https://kick.com/api/v1/channels/akibell',
@@ -15,7 +14,7 @@ export let channels = [
     'https://kick.com/api/v1/channels/cobbruvs',
     'https://kick.com/api/v1/channels/crazytawn',
     'https://kick.com/api/v1/channels/cristravels',
-    'https://kick.com/api/v1/channels/chickenandy',
+    // 'https://kick.com/api/v1/channels/chickenandy',
     'https://kick.com/api/v1/channels/ddurantv',
     'https://kick.com/api/v1/channels/deepak',
     'https://kick.com/api/v1/channels/dtanmanb',

@@ -53,7 +53,7 @@ import RotatingSpinner from './RotatingSpinner.js';
 
           const onlineChannels = validResponses.filter(
             (response) =>
-              response.livestream && response.livestream.viewer_count_ws >= 0
+              response.livestream && response.livestream.viewer_count >= 0
           );
           const offlineChannels = validResponses.filter(
             (response) => response.livestream === null
@@ -109,9 +109,9 @@ import RotatingSpinner from './RotatingSpinner.js';
 
     const sortedOnlineChannels = onlineChannels.slice().sort((a, b) => {
       if (sortHighToLow) {
-        return b.livestream.viewer_count_ws - a.livestream.viewer_count_ws;
+        return b.livestream.viewer_count - a.livestream.viewer_count;
       } else {
-        return a.livestream.viewer_count_ws - b.livestream.viewer_count_ws;
+        return a.livestream.viewer_count - b.livestream.viewer_count;
       }
     });
     
@@ -187,7 +187,7 @@ import RotatingSpinner from './RotatingSpinner.js';
 
                   // if channel is live, populate raw viewers, followers, slug and stream title, else if channel is offline set stream title to the last stream title used by channel
                   rawViewers = item.livestream
-                  ? item.livestream.viewer_count_ws
+                  ? item.livestream.viewer_count
                   : null;
                   viewerCount = rawViewers
                     ? rawViewers.toLocaleString("en-US")
@@ -314,7 +314,7 @@ import RotatingSpinner from './RotatingSpinner.js';
 
                   // if channel is live, populate raw viewers, followers, slug and stream title, else if channel is offline set stream title to the last stream title used by channel
                   rawViewers = item.livestream
-                    ? item.livestream.viewer_count_ws
+                    ? item.livestream.viewer_count
                     : null;
                   viewerCount = rawViewers
                     ? rawViewers.toLocaleString("en-US")

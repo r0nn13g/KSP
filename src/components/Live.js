@@ -311,7 +311,7 @@ import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
 
                   // if channel is live, populate raw viewers, followers, slug and stream title, else if channel is offline set stream title to the last stream title used by channel
                   rawViewers = item.livestream
-                    ? item.livestream.viewer_count_ws
+                    ? item.livestream.viewer_count;
                     : null;
                   viewerCount = rawViewers
                     ? rawViewers.toLocaleString("en-US")
